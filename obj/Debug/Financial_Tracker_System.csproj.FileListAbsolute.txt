@@ -1,0 +1,12 @@
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\bin\Debug\Financial_Tracker_System.exe.config
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\bin\Debug\Financial_Tracker_System.exe
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\bin\Debug\Financial_Tracker_System.pdb
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.csproj.AssemblyReference.cache
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.Form1.resources
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.Properties.Resources.resources
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.csproj.GenerateResource.cache
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.csproj.CoreCompileInputs.cache
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.exe
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.pdb
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.exe.config
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.RegisterForm.resources
