@@ -3,4 +3,6 @@
 	username VARCHAR(MAX) NULL,
 	password VARCHAR(MAX) NULL,
 	date_create DATE NULL
-	)
+)
+
+SELECT * FROM dbo.Users

@@ -14,7 +14,7 @@ namespace Financial_Tracker_System
 {
     public partial class RegisterForm : Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=localhost;Initial Catalog=expense;Integrated Security=True;Encrypt=False");
+        SqlConnection connect = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=expense;Integrated Security=True;Connect Timeout=30");
         public RegisterForm()
         {
             InitializeComponent();
@@ -80,7 +80,8 @@ namespace Financial_Tracker_System
                         connect.Open();
                         // Sprawdz czy uzytkownik ktorego chcesz sprawdzic istnieje 
                         string selectUsername = "SELECT * FROM users WHERE username = @usern";
-                        using (SqlCommand checkUser = new SqlCommand(selectUsername, connect)) {
+                        using (SqlCommand checkUser = new SqlCommand(selectUsername, connect)) 
+                        {
                             checkUser.Parameters.AddWithValue("@usern", register_username.Text.Trim());
 
                             SqlDataAdapter adapter = new SqlDataAdapter(checkUser);
@@ -103,7 +104,7 @@ namespace Financial_Tracker_System
                             }
                             else
                             {
-                                string insertData = "INSERT INTO users (username, password, date) VALUES(@usern,@pass,@date)";
+                                string insertData = "INSERT INTO users (username, password, date_create) VALUES(@usern,@pass,@date)";
 
                                 using (SqlCommand insertUser = new SqlCommand(insertData, connect))
                                 {
@@ -127,7 +128,7 @@ namespace Financial_Tracker_System
 
                     } catch (Exception ex)
                     {
-
+                        MessageBox.Show("Failed connection: ex" + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     } finally
                     {
                         connect.Close();

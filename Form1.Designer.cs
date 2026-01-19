@@ -171,6 +171,7 @@
             this.login_btn.TabIndex = 7;
             this.login_btn.Text = "Login";
             this.login_btn.UseVisualStyleBackColor = false;
+            this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
             // login_showPass
             // 
@@ -182,6 +183,7 @@
             this.login_showPass.TabIndex = 8;
             this.login_showPass.Text = "Show Password";
             this.login_showPass.UseVisualStyleBackColor = true;
+            this.login_showPass.CheckedChanged += new System.EventHandler(this.login_showPass_CheckedChanged);
             // 
             // Form1
             // 
