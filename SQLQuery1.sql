@@ -1,6 +1,6 @@
 ﻿CREATE TABLE  Users (
-	Id INT PRIMARY KEY IDENTITY(1,1),
-	Username VARCHAR(MAX) NULL,
+	id INT PRIMARY KEY IDENTITY(1,1),
+	username VARCHAR(MAX) NULL,
 	password VARCHAR(MAX) NULL,
-	Date_create DATE NULL
+	date_create DATE NULL
 	)

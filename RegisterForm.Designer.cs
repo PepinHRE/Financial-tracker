@@ -28,12 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.register_loginBtn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.register_showPass = new System.Windows.Forms.CheckBox();
             this.register_btn = new System.Windows.Forms.Button();
             this.register_password = new System.Windows.Forms.TextBox();
@@ -45,7 +43,6 @@
             this.register_cPassword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -54,7 +51,6 @@
             this.panel1.Controls.Add(this.register_loginBtn);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(6);
@@ -99,16 +95,6 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Income and Expenses Tracker";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(147, 99);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 200);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // register_showPass
             // 
             this.register_showPass.AutoSize = true;
@@ -119,6 +105,7 @@
             this.register_showPass.TabIndex = 17;
             this.register_showPass.Text = "Show Password";
             this.register_showPass.UseVisualStyleBackColor = true;
+            this.register_showPass.CheckedChanged += new System.EventHandler(this.register_showPass_CheckedChanged);
             // 
             // register_btn
             // 
@@ -134,12 +121,14 @@
             this.register_btn.TabIndex = 16;
             this.register_btn.Text = "SIGN UP";
             this.register_btn.UseVisualStyleBackColor = false;
+            this.register_btn.Click += new System.EventHandler(this.register_btn_Click);
             // 
             // register_password
             // 
             this.register_password.Location = new System.Drawing.Point(583, 328);
             this.register_password.Multiline = true;
             this.register_password.Name = "register_password";
+            this.register_password.PasswordChar = '*';
             this.register_password.Size = new System.Drawing.Size(521, 50);
             this.register_password.TabIndex = 15;
             // 
@@ -199,6 +188,7 @@
             this.register_cPassword.Location = new System.Drawing.Point(583, 464);
             this.register_cPassword.Multiline = true;
             this.register_cPassword.Name = "register_cPassword";
+            this.register_cPassword.PasswordChar = '*';
             this.register_cPassword.Size = new System.Drawing.Size(521, 50);
             this.register_cPassword.TabIndex = 19;
             // 
@@ -237,7 +227,6 @@
             this.Load += new System.EventHandler(this.RegisterForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,7 +238,6 @@
         private System.Windows.Forms.Button register_loginBtn;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox register_showPass;
         private System.Windows.Forms.Button register_btn;
         private System.Windows.Forms.TextBox register_password;
