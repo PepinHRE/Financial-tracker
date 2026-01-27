@@ -69,6 +69,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -77,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
@@ -95,7 +99,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\" />
+    <None Include="Assets\dashboard_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ikona_osoba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\dashboard-icon-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\category_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\income_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\expense_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\logout_icone.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

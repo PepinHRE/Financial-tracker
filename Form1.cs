@@ -95,6 +95,11 @@ namespace Financial_Tracker_System
                     if (table.Rows.Count != 0)
                     {
                         MessageBox.Show("Login successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        MainForm mForm = new MainForm();
+                        mForm.Show();
+
+                        this.Hide();
                     } else
                     {
                         MessageBox.Show("Incorrect password/username", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
