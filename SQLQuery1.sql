@@ -5,4 +5,4 @@
 	date_create DATE NULL
 )
 
-SELECT * FROM dbo.Users
+SELECT * FROM Users;

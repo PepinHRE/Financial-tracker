@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data;
 using System.Data.SqlClient;
 
 namespace Financial_Tracker_System
 {
     public partial class RegisterForm : Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=expense;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(@"Data Source=OLI-WORKPLACE;
+      Initial Catalog=expense;
+      Integrated Security=True;
+      TrustServerCertificate=True;
+");
         public RegisterForm()
         {
             InitializeComponent();
