@@ -2,23 +2,20 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace Financial_Tracker_System
 {
     public partial class Form1 : Form
     {
 
-        SqlConnection connect = new SqlConnection(@"Data Source=OLI-WORKPLACE;
-      Initial Catalog=expense;
-      Integrated Security=True;
-      TrustServerCertificate=True;
-");
+        string stringConnection = @"Data Source=OLI-WORKPLACE;Initial Catalog=ExpensesApp;Integrated Security=True;TrustServerCertificate=True;";
         public Form1()
         {
             InitializeComponent();
@@ -77,10 +74,33 @@ namespace Financial_Tracker_System
             Application.Exit();
         }
 
-        public bool
         private void login_btn_Click(object sender, EventArgs e)
         {
+            using (SqlConnection connect = new SqlConnection(stringConnection))
+            {
+                connect.Open();
 
+                string selectData = "SELECT * FROM users WHERE username = @usern AND password = @pass";
+
+                using (SqlCommand cmd = new SqlCommand(selectData, connect))
+                {
+                    cmd.Parameters.AddWithValue("@usern", login_username.Text.Trim());
+                    cmd.Parameters.AddWithValue("@pass", login_password.Text.Trim());
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataTable table = new DataTable();
+
+                    adapter.Fill(table);
+
+                    if (table.Rows.Count != 0)
+                    {
+                        MessageBox.Show("Login successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    } else
+                    {
+                        MessageBox.Show("Incorrect password/username", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
 
         private void login_showPass_CheckedChanged(object sender, EventArgs e)
