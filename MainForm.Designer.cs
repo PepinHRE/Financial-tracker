@@ -41,8 +41,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.categoryForm1 = new Financial_Tracker_System.CategoryForm();
+            this.dashboardForm1 = new Financial_Tracker_System.DashboardForm();
+            this.expensesForm1 = new Financial_Tracker_System.ExpensesForm();
             this.incomeForm1 = new Financial_Tracker_System.IncomeForm();
+            this.categoryForm1 = new Financial_Tracker_System.CategoryForm();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -142,6 +144,7 @@
             this.expenses_btn.TabIndex = 7;
             this.expenses_btn.Text = "Expenses";
             this.expenses_btn.UseVisualStyleBackColor = false;
+            this.expenses_btn.Click += new System.EventHandler(this.expenses_btn_Click);
             // 
             // income_btn
             // 
@@ -157,6 +160,7 @@
             this.income_btn.TabIndex = 6;
             this.income_btn.Text = "Income";
             this.income_btn.UseVisualStyleBackColor = false;
+            this.income_btn.Click += new System.EventHandler(this.income_btn_Click);
             // 
             // addCategory_btn
             // 
@@ -172,6 +176,7 @@
             this.addCategory_btn.TabIndex = 5;
             this.addCategory_btn.Text = "Add Category";
             this.addCategory_btn.UseVisualStyleBackColor = false;
+            this.addCategory_btn.Click += new System.EventHandler(this.addCategory_btn_Click);
             // 
             // dashboard_btn
             // 
@@ -213,6 +218,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.dashboardForm1);
+            this.panel2.Controls.Add(this.expensesForm1);
             this.panel2.Controls.Add(this.incomeForm1);
             this.panel2.Controls.Add(this.categoryForm1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -221,12 +228,19 @@
             this.panel2.Size = new System.Drawing.Size(1101, 687);
             this.panel2.TabIndex = 3;
             // 
-            // categoryForm1
+            // dashboardForm1
             // 
-            this.categoryForm1.Location = new System.Drawing.Point(0, 0);
-            this.categoryForm1.Name = "categoryForm1";
-            this.categoryForm1.Size = new System.Drawing.Size(1101, 687);
-            this.categoryForm1.TabIndex = 4;
+            this.dashboardForm1.Location = new System.Drawing.Point(0, 0);
+            this.dashboardForm1.Name = "dashboardForm1";
+            this.dashboardForm1.Size = new System.Drawing.Size(1101, 687);
+            this.dashboardForm1.TabIndex = 7;
+            // 
+            // expensesForm1
+            // 
+            this.expensesForm1.Location = new System.Drawing.Point(0, 0);
+            this.expensesForm1.Name = "expensesForm1";
+            this.expensesForm1.Size = new System.Drawing.Size(1101, 687);
+            this.expensesForm1.TabIndex = 6;
             // 
             // incomeForm1
             // 
@@ -234,6 +248,13 @@
             this.incomeForm1.Name = "incomeForm1";
             this.incomeForm1.Size = new System.Drawing.Size(1101, 687);
             this.incomeForm1.TabIndex = 5;
+            // 
+            // categoryForm1
+            // 
+            this.categoryForm1.Location = new System.Drawing.Point(0, 0);
+            this.categoryForm1.Name = "categoryForm1";
+            this.categoryForm1.Size = new System.Drawing.Size(1101, 687);
+            this.categoryForm1.TabIndex = 4;
             // 
             // MainForm
             // 
@@ -274,5 +295,7 @@
         private System.Windows.Forms.Panel panel2;
         private CategoryForm categoryForm1;
         private IncomeForm incomeForm1;
+        private ExpensesForm expensesForm1;
+        private DashboardForm dashboardForm1;
     }
 }

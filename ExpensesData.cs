@@ -5,10 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-
 namespace Financial_Tracker_System
 {
-    class IncomeData
+    class ExpensesData
     {
         string stringConnection = @"Data Source=OLI-WORKPLACE;Initial Catalog=ExpensesApp;Integrated Security=True;TrustServerCertificate=True;";
 
@@ -17,17 +16,17 @@ namespace Financial_Tracker_System
         public string Item { set; get; } // 2
         public string Cost { set; get; } // 3
         public string Description { set; get; } // 4
-        public string DateIncome { set; get; } 
+        public string DateIncome { set; get; }
 
-        public List<IncomeData> incomeListData()
+        public List<ExpensesData> expensesListData()
         {
-            List<IncomeData> listData = new List<IncomeData>();
+            List<ExpensesData> listData = new List<ExpensesData>();
 
             using (SqlConnection connect = new SqlConnection(stringConnection))
             {
                 connect.Open();
 
-                string selectData = "SELECT * FROM income";
+                string selectData = "SELECT * FROM expenses";
 
                 using (SqlCommand cmd = new SqlCommand(selectData, connect))
                 {
@@ -36,15 +35,15 @@ namespace Financial_Tracker_System
 
                     while (reader.Read())
                     {
-                        IncomeData iData = new IncomeData();
-                        iData.ID = (int)reader["id"];
-                        iData.Category = reader["category"].ToString();
-                        iData.Item = reader["item"].ToString();
-                        iData.Cost = reader["income"].ToString();
-                        iData.Description = reader["description"].ToString();
-                        iData.DateIncome = ((DateTime)reader["date_income"]).ToString("dd-MM-yyyy");
+                        ExpensesData eData = new ExpensesData();
+                        eData.ID = (int)reader["id"];
+                        eData.Category = reader["category"].ToString();
+                        eData.Item = reader["item"].ToString();
+                        eData.Cost = reader["cost"].ToString();
+                        eData.Description = reader["description"].ToString();
+                        eData.DateIncome = ((DateTime)reader["date_expense"]).ToString("dd-MM-yyyy");
 
-                        listData.Add(iData);
+                        listData.Add(eData);
                     }
                 }
             }

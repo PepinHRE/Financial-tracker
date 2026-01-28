@@ -32,20 +32,20 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.income_category = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.income_categories = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.income_item = new System.Windows.Forms.TextBox();
-            this.income_income = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.income_description = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.income_date = new System.Windows.Forms.DateTimePicker();
-            this.income_addBtn = new System.Windows.Forms.Button();
-            this.income_updateBtn = new System.Windows.Forms.Button();
             this.income_clearBtn = new System.Windows.Forms.Button();
             this.income_deleteBtn = new System.Windows.Forms.Button();
+            this.income_updateBtn = new System.Windows.Forms.Button();
+            this.income_addBtn = new System.Windows.Forms.Button();
+            this.income_date = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.income_description = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.income_income = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.income_item = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.income_categories = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.income_category.SuspendLayout();
@@ -93,117 +93,6 @@
             this.income_category.Size = new System.Drawing.Size(1073, 351);
             this.income_category.TabIndex = 2;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(20, 72);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Category:";
-            // 
-            // income_categories
-            // 
-            this.income_categories.FormattingEnabled = true;
-            this.income_categories.Location = new System.Drawing.Point(125, 69);
-            this.income_categories.Name = "income_categories";
-            this.income_categories.Size = new System.Drawing.Size(205, 33);
-            this.income_categories.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(31, 133);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 25);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Item:";
-            // 
-            // income_item
-            // 
-            this.income_item.Location = new System.Drawing.Point(125, 133);
-            this.income_item.Name = "income_item";
-            this.income_item.Size = new System.Drawing.Size(205, 31);
-            this.income_item.TabIndex = 4;
-            // 
-            // income_income
-            // 
-            this.income_income.Location = new System.Drawing.Point(125, 197);
-            this.income_income.Name = "income_income";
-            this.income_income.Size = new System.Drawing.Size(205, 31);
-            this.income_income.TabIndex = 6;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(20, 197);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 25);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Income:";
-            // 
-            // income_description
-            // 
-            this.income_description.Location = new System.Drawing.Point(536, 66);
-            this.income_description.Multiline = true;
-            this.income_description.Name = "income_description";
-            this.income_description.Size = new System.Drawing.Size(517, 98);
-            this.income_description.TabIndex = 8;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(410, 69);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 25);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Description:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(467, 208);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 25);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Date:";
-            // 
-            // income_date
-            // 
-            this.income_date.Location = new System.Drawing.Point(536, 203);
-            this.income_date.Name = "income_date";
-            this.income_date.Size = new System.Drawing.Size(381, 31);
-            this.income_date.TabIndex = 10;
-            // 
-            // income_addBtn
-            // 
-            this.income_addBtn.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.income_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.income_addBtn.Location = new System.Drawing.Point(254, 292);
-            this.income_addBtn.Name = "income_addBtn";
-            this.income_addBtn.Size = new System.Drawing.Size(95, 48);
-            this.income_addBtn.TabIndex = 11;
-            this.income_addBtn.Text = "Add";
-            this.income_addBtn.UseVisualStyleBackColor = false;
-            this.income_addBtn.Click += new System.EventHandler(this.income_addBtn_Click);
-            // 
-            // income_updateBtn
-            // 
-            this.income_updateBtn.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.income_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.income_updateBtn.Location = new System.Drawing.Point(391, 292);
-            this.income_updateBtn.Name = "income_updateBtn";
-            this.income_updateBtn.Size = new System.Drawing.Size(95, 48);
-            this.income_updateBtn.TabIndex = 12;
-            this.income_updateBtn.Text = "Update";
-            this.income_updateBtn.UseVisualStyleBackColor = false;
-            this.income_updateBtn.Click += new System.EventHandler(this.income_updateBtn_Click);
-            // 
             // income_clearBtn
             // 
             this.income_clearBtn.BackColor = System.Drawing.Color.CornflowerBlue;
@@ -226,6 +115,118 @@
             this.income_deleteBtn.TabIndex = 13;
             this.income_deleteBtn.Text = "Delete";
             this.income_deleteBtn.UseVisualStyleBackColor = false;
+            this.income_deleteBtn.Click += new System.EventHandler(this.income_deleteBtn_Click);
+            // 
+            // income_updateBtn
+            // 
+            this.income_updateBtn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.income_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.income_updateBtn.Location = new System.Drawing.Point(391, 292);
+            this.income_updateBtn.Name = "income_updateBtn";
+            this.income_updateBtn.Size = new System.Drawing.Size(95, 48);
+            this.income_updateBtn.TabIndex = 12;
+            this.income_updateBtn.Text = "Update";
+            this.income_updateBtn.UseVisualStyleBackColor = false;
+            this.income_updateBtn.Click += new System.EventHandler(this.income_updateBtn_Click);
+            // 
+            // income_addBtn
+            // 
+            this.income_addBtn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.income_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.income_addBtn.Location = new System.Drawing.Point(254, 292);
+            this.income_addBtn.Name = "income_addBtn";
+            this.income_addBtn.Size = new System.Drawing.Size(95, 48);
+            this.income_addBtn.TabIndex = 11;
+            this.income_addBtn.Text = "Add";
+            this.income_addBtn.UseVisualStyleBackColor = false;
+            this.income_addBtn.Click += new System.EventHandler(this.income_addBtn_Click);
+            // 
+            // income_date
+            // 
+            this.income_date.Location = new System.Drawing.Point(536, 203);
+            this.income_date.Name = "income_date";
+            this.income_date.Size = new System.Drawing.Size(381, 31);
+            this.income_date.TabIndex = 10;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.Location = new System.Drawing.Point(467, 208);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 25);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Date:";
+            // 
+            // income_description
+            // 
+            this.income_description.Location = new System.Drawing.Point(536, 66);
+            this.income_description.Multiline = true;
+            this.income_description.Name = "income_description";
+            this.income_description.Size = new System.Drawing.Size(517, 98);
+            this.income_description.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(410, 69);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(126, 25);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Description:";
+            // 
+            // income_income
+            // 
+            this.income_income.Location = new System.Drawing.Point(125, 197);
+            this.income_income.Name = "income_income";
+            this.income_income.Size = new System.Drawing.Size(205, 31);
+            this.income_income.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(20, 197);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 25);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Income:";
+            // 
+            // income_item
+            // 
+            this.income_item.Location = new System.Drawing.Point(125, 133);
+            this.income_item.Name = "income_item";
+            this.income_item.Size = new System.Drawing.Size(205, 31);
+            this.income_item.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(31, 133);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 25);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Item:";
+            // 
+            // income_categories
+            // 
+            this.income_categories.FormattingEnabled = true;
+            this.income_categories.Location = new System.Drawing.Point(125, 69);
+            this.income_categories.Name = "income_categories";
+            this.income_categories.Size = new System.Drawing.Size(205, 33);
+            this.income_categories.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(20, 72);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Category:";
             // 
             // dataGridView1
             // 

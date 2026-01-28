@@ -47,7 +47,10 @@ namespace Financial_Tracker_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            dashboardForm1.Visible = true;
+            categoryForm1.Visible = false;
+            incomeForm1.Visible = false;
+            expensesForm1.Visible = false;
         }
 
         private void button5_Click(object sender, EventArgs e) // logout btn click
@@ -59,6 +62,30 @@ namespace Financial_Tracker_System
 
                 this.Hide();
             }
+        }
+
+        private void addCategory_btn_Click(object sender, EventArgs e)
+        {
+            dashboardForm1.Visible = false;
+            categoryForm1.Visible = true;
+            incomeForm1.Visible = false;
+            expensesForm1.Visible = false;
+        }
+
+        private void income_btn_Click(object sender, EventArgs e)
+        {
+            dashboardForm1.Visible = false;
+            categoryForm1.Visible = false;
+            incomeForm1.Visible = true;
+            expensesForm1.Visible = false;
+        }
+
+        private void expenses_btn_Click(object sender, EventArgs e)
+        {
+            dashboardForm1.Visible = false;
+            categoryForm1.Visible = false;
+            incomeForm1.Visible = false;
+            expensesForm1.Visible = true;
         }
     }
 }
