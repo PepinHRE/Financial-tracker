@@ -45,11 +45,9 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.income_totalIncome = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.income_yesterdayIncome = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.income_thisMonthIncome = new System.Windows.Forms.Label();
@@ -77,6 +75,8 @@
             this.expense_thisYear = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -85,9 +85,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel12.SuspendLayout();
@@ -101,6 +99,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -264,14 +264,6 @@
             this.income_totalIncome.TabIndex = 3;
             this.income_totalIncome.Text = "0";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(20, 25);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(46, 41);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.CornflowerBlue;
@@ -302,14 +294,6 @@
             this.income_yesterdayIncome.TabIndex = 3;
             this.income_yesterdayIncome.Text = "0";
             this.income_yesterdayIncome.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(19, 25);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(46, 41);
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
             // 
             // panel11
             // 
@@ -422,11 +406,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(48, 95);
+            this.label2.Location = new System.Drawing.Point(22, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(162, 25);
+            this.label2.Size = new System.Drawing.Size(188, 25);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Today\'s Income";
+            this.label2.Text = "Today\'s Expenses";
             // 
             // expense_today
             // 
@@ -459,11 +443,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(14, 95);
+            this.label6.Location = new System.Drawing.Point(-4, 95);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 25);
+            this.label6.Size = new System.Drawing.Size(226, 25);
             this.label6.TabIndex = 4;
-            this.label6.Text = "Yesterday\'s Income";
+            this.label6.Text = "Yesterday\'s Expenses";
             // 
             // expense_yesterday
             // 
@@ -496,11 +480,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(25, 95);
+            this.label8.Location = new System.Drawing.Point(2, 95);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(194, 25);
+            this.label8.Size = new System.Drawing.Size(220, 25);
             this.label8.TabIndex = 4;
-            this.label8.Text = "This Month Income";
+            this.label8.Text = "This Month Expenses";
             // 
             // expense_thisMonth
             // 
@@ -533,11 +517,11 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(37, 95);
+            this.label18.Location = new System.Drawing.Point(11, 95);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(180, 25);
+            this.label18.Size = new System.Drawing.Size(206, 25);
             this.label18.TabIndex = 4;
-            this.label18.Text = "This Year Income";
+            this.label18.Text = "This Year Expenses";
             // 
             // expense_thisYear
             // 
@@ -566,6 +550,22 @@
             this.label20.TabIndex = 2;
             this.label20.Text = "Expense\'s Data";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(19, 25);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(46, 41);
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(20, 25);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(46, 41);
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
             // DashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -591,10 +591,8 @@
             this.panel1.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -615,6 +613,8 @@
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -635,10 +635,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label income_totalIncome;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label income_yesterdayIncome;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label income_thisYearIncome;
@@ -669,5 +667,7 @@
         private System.Windows.Forms.Label expense_thisYear;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
