@@ -29,22 +29,24 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.logout_btn = new System.Windows.Forms.Button();
+            this.expenses_btn = new System.Windows.Forms.Button();
+            this.income_btn = new System.Windows.Forms.Button();
+            this.addCategory_btn = new System.Windows.Forms.Button();
+            this.dashboard_btn = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.categoryForm1 = new Financial_Tracker_System.CategoryForm();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -57,16 +59,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1375, 88);
             this.panel1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Financial_Tracker_System.Properties.Resources.ikona_osoba;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -95,11 +87,11 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.logout_btn);
+            this.panel3.Controls.Add(this.expenses_btn);
+            this.panel3.Controls.Add(this.income_btn);
+            this.panel3.Controls.Add(this.addCategory_btn);
+            this.panel3.Controls.Add(this.dashboard_btn);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
@@ -108,82 +100,6 @@
             this.panel3.Size = new System.Drawing.Size(274, 687);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button5.Image = global::Financial_Tracker_System.Properties.Resources.logout_icone;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(12, 611);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(286, 40);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Logout";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Image = global::Financial_Tracker_System.Properties.Resources.expense_icon;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(12, 474);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(286, 40);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Expenses";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button4.Image = global::Financial_Tracker_System.Properties.Resources.income_icon;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(12, 405);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(286, 40);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Income";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Image = global::Financial_Tracker_System.Properties.Resources.category_icon;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 336);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(286, 40);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Add Category";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Image = global::Financial_Tracker_System.Properties.Resources.dashboard_icon_3;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(286, 40);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Dashboard";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -197,6 +113,92 @@
             this.label2.Text = "Welcome,";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.categoryForm1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(274, 88);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1101, 687);
+            this.panel2.TabIndex = 3;
+            // 
+            // logout_btn
+            // 
+            this.logout_btn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.logout_btn.FlatAppearance.BorderSize = 0;
+            this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logout_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.logout_btn.Image = global::Financial_Tracker_System.Properties.Resources.logout_icone;
+            this.logout_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.logout_btn.Location = new System.Drawing.Point(12, 611);
+            this.logout_btn.Name = "logout_btn";
+            this.logout_btn.Size = new System.Drawing.Size(286, 40);
+            this.logout_btn.TabIndex = 8;
+            this.logout_btn.Text = "Logout";
+            this.logout_btn.UseVisualStyleBackColor = false;
+            this.logout_btn.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // expenses_btn
+            // 
+            this.expenses_btn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.expenses_btn.FlatAppearance.BorderSize = 0;
+            this.expenses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.expenses_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.expenses_btn.Image = global::Financial_Tracker_System.Properties.Resources.expense_icon;
+            this.expenses_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.expenses_btn.Location = new System.Drawing.Point(12, 474);
+            this.expenses_btn.Name = "expenses_btn";
+            this.expenses_btn.Size = new System.Drawing.Size(286, 40);
+            this.expenses_btn.TabIndex = 7;
+            this.expenses_btn.Text = "Expenses";
+            this.expenses_btn.UseVisualStyleBackColor = false;
+            // 
+            // income_btn
+            // 
+            this.income_btn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.income_btn.FlatAppearance.BorderSize = 0;
+            this.income_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.income_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.income_btn.Image = global::Financial_Tracker_System.Properties.Resources.income_icon;
+            this.income_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.income_btn.Location = new System.Drawing.Point(12, 405);
+            this.income_btn.Name = "income_btn";
+            this.income_btn.Size = new System.Drawing.Size(286, 40);
+            this.income_btn.TabIndex = 6;
+            this.income_btn.Text = "Income";
+            this.income_btn.UseVisualStyleBackColor = false;
+            // 
+            // addCategory_btn
+            // 
+            this.addCategory_btn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.addCategory_btn.FlatAppearance.BorderSize = 0;
+            this.addCategory_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addCategory_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.addCategory_btn.Image = global::Financial_Tracker_System.Properties.Resources.category_icon;
+            this.addCategory_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.addCategory_btn.Location = new System.Drawing.Point(12, 336);
+            this.addCategory_btn.Name = "addCategory_btn";
+            this.addCategory_btn.Size = new System.Drawing.Size(286, 40);
+            this.addCategory_btn.TabIndex = 5;
+            this.addCategory_btn.Text = "Add Category";
+            this.addCategory_btn.UseVisualStyleBackColor = false;
+            // 
+            // dashboard_btn
+            // 
+            this.dashboard_btn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.dashboard_btn.FlatAppearance.BorderSize = 0;
+            this.dashboard_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dashboard_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dashboard_btn.Image = global::Financial_Tracker_System.Properties.Resources.dashboard_icon_3;
+            this.dashboard_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dashboard_btn.Location = new System.Drawing.Point(12, 267);
+            this.dashboard_btn.Name = "dashboard_btn";
+            this.dashboard_btn.Size = new System.Drawing.Size(286, 40);
+            this.dashboard_btn.TabIndex = 4;
+            this.dashboard_btn.Text = "Dashboard";
+            this.dashboard_btn.UseVisualStyleBackColor = false;
+            this.dashboard_btn.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Financial_Tracker_System.Properties.Resources.ikona_osoba;
@@ -207,13 +209,22 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // panel2
+            // pictureBox1
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(274, 88);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1101, 687);
-            this.panel2.TabIndex = 3;
+            this.pictureBox1.Image = global::Financial_Tracker_System.Properties.Resources.ikona_osoba;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // categoryForm1
+            // 
+            this.categoryForm1.Location = new System.Drawing.Point(0, 0);
+            this.categoryForm1.Name = "categoryForm1";
+            this.categoryForm1.Size = new System.Drawing.Size(1101, 687);
+            this.categoryForm1.TabIndex = 4;
             // 
             // MainForm
             // 
@@ -228,10 +239,11 @@
             this.Text = "MainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -245,11 +257,12 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button dashboard_btn;
+        private System.Windows.Forms.Button logout_btn;
+        private System.Windows.Forms.Button expenses_btn;
+        private System.Windows.Forms.Button income_btn;
+        private System.Windows.Forms.Button addCategory_btn;
         private System.Windows.Forms.Panel panel2;
+        private CategoryForm categoryForm1;
     }
 }

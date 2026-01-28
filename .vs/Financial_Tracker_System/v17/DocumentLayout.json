@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\incomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:incomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\categorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:categorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|c:\\users\\oliwi\\source\\repos\\financial_tracker_system\\financial-tracker\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44F6D89F-986B-4F55-99F9-08023E3C55E1}|Financial_Tracker_System.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -63,51 +87,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\RegisterForm.cs",
               "RelativeDocumentMoniker": "RegisterForm.cs",
               "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\RegisterForm.cs",
               "RelativeToolTip": "RegisterForm.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAuwGAAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T17:29:23.582Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "DashboardForm.cs",
-              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs",
-              "RelativeToolTip": "DashboardForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAhwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T23:10:59.139Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DashboardForm.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs",
-              "RelativeDocumentMoniker": "DashboardForm.cs",
-              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs [Projekt]",
-              "RelativeToolTip": "DashboardForm.cs [Projekt]",
+              "Title": "IncomeForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\IncomeForm.cs",
+              "RelativeDocumentMoniker": "IncomeForm.cs",
+              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\IncomeForm.cs [Projekt]",
+              "RelativeToolTip": "IncomeForm.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T23:00:42.872Z",
+              "WhenOpened": "2026-01-28T11:28:28.854Z",
               "EditorCaption": " [Projekt]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryForm.cs",
+              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\CategoryForm.cs",
+              "RelativeDocumentMoniker": "CategoryForm.cs",
+              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\CategoryForm.cs",
+              "RelativeToolTip": "CategoryForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:20:23.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CategoryForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\CategoryForm.cs",
+              "RelativeDocumentMoniker": "CategoryForm.cs",
+              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\CategoryForm.cs [Projekt]",
+              "RelativeToolTip": "CategoryForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:25:51.897Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAhwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T14:43:56.432Z",
               "EditorCaption": ""
@@ -126,18 +163,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SQLQuery1.sql",
+              "DocumentIndex": 1,
+              "Title": "RegisterForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "RegisterForm.cs",
+              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\RegisterForm.cs [Projekt]",
+              "RelativeToolTip": "RegisterForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:38:15.453Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryData.cs",
+              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\CategoryData.cs",
+              "RelativeDocumentMoniker": "CategoryData.cs",
+              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\CategoryData.cs",
+              "RelativeToolTip": "CategoryData.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCsAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:37:25.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "DashboardForm.cs",
+              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs [Projekt]",
+              "RelativeToolTip": "DashboardForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T23:00:42.872Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SQLQuery1.sql ",
               "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "SQLQuery1.sql",
+              "ToolTip": "SQLQuery1.sql ",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-01-27T11:55:24.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "DashboardForm.cs",
+              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\DashboardForm.cs",
+              "RelativeToolTip": "DashboardForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAhwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T23:10:59.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Form1.cs [Projekt]",
               "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -145,17 +232,6 @@
               "RelativeToolTip": "Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T15:40:33.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterForm.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "RegisterForm.cs",
-              "ToolTip": "C:\\Users\\oliwi\\source\\repos\\Financial_Tracker_System\\Financial-tracker\\RegisterForm.cs [Projekt]",
-              "RelativeToolTip": "RegisterForm.cs [Projekt]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:38:15.453Z"
             }
           ]
         }

@@ -19,7 +19,10 @@ namespace Financial_Tracker_System
 
         private void close_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Are you sure you want to close?", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,6 +48,17 @@ namespace Financial_Tracker_System
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e) // logout btn click
+        {
+            if(MessageBox.Show("Are you sure you want to logout?", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Form1 loginForm = new Form1();
+                loginForm.Show();
+
+                this.Hide();
+            }
         }
     }
 }

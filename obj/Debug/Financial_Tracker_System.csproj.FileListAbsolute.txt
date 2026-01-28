@@ -11,3 +11,5 @@ C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug
 C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.exe.config
 C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.RegisterForm.resources
 C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.MainForm.resources
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.CategoryForm.resources
+C:\Users\oliwi\source\repos\Financial_Tracker_System\Financial-tracker\obj\Debug\Financial_Tracker_System.DashboardForm.resources
