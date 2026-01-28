@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.category_category = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.category_type = new System.Windows.Forms.ComboBox();
+            this.category_deleteBtn = new System.Windows.Forms.Button();
+            this.category_clearBtn = new System.Windows.Forms.Button();
+            this.category_updateBtn = new System.Windows.Forms.Button();
+            this.category_addBtn = new System.Windows.Forms.Button();
             this.category_status = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.category_addBtn = new System.Windows.Forms.Button();
-            this.category_updateBtn = new System.Windows.Forms.Button();
-            this.category_clearBtn = new System.Windows.Forms.Button();
-            this.category_deleteBtn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.category_type = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.category_category = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -66,53 +66,53 @@
             this.panel1.Size = new System.Drawing.Size(244, 652);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // category_deleteBtn
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Location = new System.Drawing.Point(280, 15);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(796, 652);
-            this.panel2.TabIndex = 1;
+            this.category_deleteBtn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.category_deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.category_deleteBtn.Location = new System.Drawing.Point(135, 398);
+            this.category_deleteBtn.Name = "category_deleteBtn";
+            this.category_deleteBtn.Size = new System.Drawing.Size(95, 48);
+            this.category_deleteBtn.TabIndex = 8;
+            this.category_deleteBtn.Text = "Delete";
+            this.category_deleteBtn.UseVisualStyleBackColor = false;
+            this.category_deleteBtn.Click += new System.EventHandler(this.category_deleteBtn_Click);
             // 
-            // label1
+            // category_clearBtn
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(16, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Category";
+            this.category_clearBtn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.category_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.category_clearBtn.Location = new System.Drawing.Point(12, 398);
+            this.category_clearBtn.Name = "category_clearBtn";
+            this.category_clearBtn.Size = new System.Drawing.Size(95, 48);
+            this.category_clearBtn.TabIndex = 7;
+            this.category_clearBtn.Text = "Clear";
+            this.category_clearBtn.UseVisualStyleBackColor = false;
+            this.category_clearBtn.Click += new System.EventHandler(this.category_clearBtn_Click);
             // 
-            // category_category
+            // category_updateBtn
             // 
-            this.category_category.Location = new System.Drawing.Point(21, 58);
-            this.category_category.Name = "category_category";
-            this.category_category.Size = new System.Drawing.Size(197, 31);
-            this.category_category.TabIndex = 0;
+            this.category_updateBtn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.category_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.category_updateBtn.Location = new System.Drawing.Point(135, 323);
+            this.category_updateBtn.Name = "category_updateBtn";
+            this.category_updateBtn.Size = new System.Drawing.Size(95, 48);
+            this.category_updateBtn.TabIndex = 6;
+            this.category_updateBtn.Text = "Update";
+            this.category_updateBtn.UseVisualStyleBackColor = false;
+            this.category_updateBtn.Click += new System.EventHandler(this.category_updateBtn_Click);
             // 
-            // label2
+            // category_addBtn
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(16, 120);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 29);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Type";
-            // 
-            // category_type
-            // 
-            this.category_type.FormattingEnabled = true;
-            this.category_type.Items.AddRange(new object[] {
-            "Income",
-            "Expenses"});
-            this.category_type.Location = new System.Drawing.Point(21, 158);
-            this.category_type.Name = "category_type";
-            this.category_type.Size = new System.Drawing.Size(197, 33);
-            this.category_type.TabIndex = 2;
+            this.category_addBtn.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.category_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.category_addBtn.Location = new System.Drawing.Point(12, 323);
+            this.category_addBtn.Name = "category_addBtn";
+            this.category_addBtn.Size = new System.Drawing.Size(95, 48);
+            this.category_addBtn.TabIndex = 5;
+            this.category_addBtn.Text = "Add";
+            this.category_addBtn.UseVisualStyleBackColor = false;
+            this.category_addBtn.Click += new System.EventHandler(this.category_addBtn_Click);
             // 
             // category_status
             // 
@@ -135,53 +135,63 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Status";
             // 
-            // category_addBtn
+            // category_type
             // 
-            this.category_addBtn.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.category_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.category_addBtn.Location = new System.Drawing.Point(12, 323);
-            this.category_addBtn.Name = "category_addBtn";
-            this.category_addBtn.Size = new System.Drawing.Size(95, 48);
-            this.category_addBtn.TabIndex = 5;
-            this.category_addBtn.Text = "Add";
-            this.category_addBtn.UseVisualStyleBackColor = false;
-            this.category_addBtn.Click += new System.EventHandler(this.category_addBtn_Click);
+            this.category_type.FormattingEnabled = true;
+            this.category_type.Items.AddRange(new object[] {
+            "Income",
+            "Expenses"});
+            this.category_type.Location = new System.Drawing.Point(21, 158);
+            this.category_type.Name = "category_type";
+            this.category_type.Size = new System.Drawing.Size(197, 33);
+            this.category_type.TabIndex = 2;
             // 
-            // category_updateBtn
+            // label2
             // 
-            this.category_updateBtn.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.category_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.category_updateBtn.Location = new System.Drawing.Point(135, 323);
-            this.category_updateBtn.Name = "category_updateBtn";
-            this.category_updateBtn.Size = new System.Drawing.Size(95, 48);
-            this.category_updateBtn.TabIndex = 6;
-            this.category_updateBtn.Text = "Update";
-            this.category_updateBtn.UseVisualStyleBackColor = false;
-            this.category_updateBtn.Click += new System.EventHandler(this.category_updateBtn_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(16, 120);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 29);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Type";
             // 
-            // category_clearBtn
+            // category_category
             // 
-            this.category_clearBtn.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.category_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.category_clearBtn.Location = new System.Drawing.Point(12, 398);
-            this.category_clearBtn.Name = "category_clearBtn";
-            this.category_clearBtn.Size = new System.Drawing.Size(95, 48);
-            this.category_clearBtn.TabIndex = 7;
-            this.category_clearBtn.Text = "Clear";
-            this.category_clearBtn.UseVisualStyleBackColor = false;
-            this.category_clearBtn.Click += new System.EventHandler(this.category_clearBtn_Click);
+            this.category_category.Location = new System.Drawing.Point(21, 58);
+            this.category_category.Name = "category_category";
+            this.category_category.Size = new System.Drawing.Size(197, 31);
+            this.category_category.TabIndex = 0;
             // 
-            // category_deleteBtn
+            // label1
             // 
-            this.category_deleteBtn.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.category_deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.category_deleteBtn.Location = new System.Drawing.Point(135, 398);
-            this.category_deleteBtn.Name = "category_deleteBtn";
-            this.category_deleteBtn.Size = new System.Drawing.Size(95, 48);
-            this.category_deleteBtn.TabIndex = 8;
-            this.category_deleteBtn.Text = "Delete";
-            this.category_deleteBtn.UseVisualStyleBackColor = false;
-            this.category_deleteBtn.Click += new System.EventHandler(this.category_deleteBtn_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(16, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 29);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Category";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Location = new System.Drawing.Point(280, 15);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(796, 652);
+            this.panel2.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(26, 21);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(174, 29);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Categories List";
             // 
             // dataGridView1
             // 
@@ -189,14 +199,14 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(20, 58);
@@ -209,16 +219,6 @@
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(26, 21);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(174, 29);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Categories List";
-            // 
             // CategoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -227,6 +227,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "CategoryForm";
             this.Size = new System.Drawing.Size(1101, 687);
+            this.Load += new System.EventHandler(this.CategoryForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

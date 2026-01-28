@@ -161,5 +161,10 @@ namespace Financial_Tracker_System
             }
             displayCategoryList();
         }
+
+        private void CategoryForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,24 +29,25 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.logout_btn = new System.Windows.Forms.Button();
             this.expenses_btn = new System.Windows.Forms.Button();
             this.income_btn = new System.Windows.Forms.Button();
             this.addCategory_btn = new System.Windows.Forms.Button();
             this.dashboard_btn = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.categoryForm1 = new Financial_Tracker_System.CategoryForm();
+            this.incomeForm1 = new Financial_Tracker_System.IncomeForm();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -59,6 +60,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1375, 88);
             this.panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Financial_Tracker_System.Properties.Resources.ikona_osoba;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -100,27 +111,6 @@
             this.panel3.Size = new System.Drawing.Size(274, 687);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(7, 147);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 29);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Welcome,";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.categoryForm1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(274, 88);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1101, 687);
-            this.panel2.TabIndex = 3;
             // 
             // logout_btn
             // 
@@ -199,6 +189,18 @@
             this.dashboard_btn.UseVisualStyleBackColor = false;
             this.dashboard_btn.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(7, 147);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(117, 29);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Welcome,";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Financial_Tracker_System.Properties.Resources.ikona_osoba;
@@ -209,15 +211,15 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // panel2
             // 
-            this.pictureBox1.Image = global::Financial_Tracker_System.Properties.Resources.ikona_osoba;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.panel2.Controls.Add(this.incomeForm1);
+            this.panel2.Controls.Add(this.categoryForm1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(274, 88);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1101, 687);
+            this.panel2.TabIndex = 3;
             // 
             // categoryForm1
             // 
@@ -225,6 +227,13 @@
             this.categoryForm1.Name = "categoryForm1";
             this.categoryForm1.Size = new System.Drawing.Size(1101, 687);
             this.categoryForm1.TabIndex = 4;
+            // 
+            // incomeForm1
+            // 
+            this.incomeForm1.Location = new System.Drawing.Point(0, 0);
+            this.incomeForm1.Name = "incomeForm1";
+            this.incomeForm1.Size = new System.Drawing.Size(1101, 687);
+            this.incomeForm1.TabIndex = 5;
             // 
             // MainForm
             // 
@@ -239,11 +248,11 @@
             this.Text = "MainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -264,5 +273,6 @@
         private System.Windows.Forms.Button addCategory_btn;
         private System.Windows.Forms.Panel panel2;
         private CategoryForm categoryForm1;
+        private IncomeForm incomeForm1;
     }
 }
