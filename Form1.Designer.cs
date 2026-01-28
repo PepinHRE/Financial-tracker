@@ -40,12 +40,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.login_btn = new System.Windows.Forms.Button();
             this.login_showPass = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.login_singupBtn);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label3);
@@ -185,6 +188,16 @@
             this.login_showPass.UseVisualStyleBackColor = true;
             this.login_showPass.CheckedChanged += new System.EventHandler(this.login_showPass_CheckedChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Financial_Tracker_System.Properties.Resources.person1;
+            this.pictureBox1.Location = new System.Drawing.Point(165, 97);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(180, 172);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -208,6 +221,7 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,6 +241,7 @@
         private System.Windows.Forms.CheckBox login_showPass;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button login_singupBtn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

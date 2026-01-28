@@ -24,11 +24,36 @@ namespace Financial_Tracker_System
             incomeYesterdayIncome();
             incomeThisMonth();
             incomeThisYear();
+            incometotalIncome();
 
             expensesToday();
             expensesYesterday();
             expensesThisMonth();
             expensesThisYear();
+            expensetotalExpenses();
+        }
+
+        public void refreshData()
+        {
+            if(InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+
+            InitializeComponent();
+
+            incomeTodayIncome();
+            incomeYesterdayIncome();
+            incomeThisMonth();
+            incomeThisYear();
+            incometotalIncome();
+
+            expensesToday();
+            expensesYesterday();
+            expensesThisMonth();
+            expensesThisYear();
+            expensetotalExpenses();
         }
 
         // Income
@@ -149,6 +174,34 @@ namespace Financial_Tracker_System
                 }
             }
 
+        }
+
+        public void incometotalIncome()
+        {
+            using (SqlConnection connect = new SqlConnection(stringConnection))
+            {
+
+                connect.Open();
+
+                string query = "SELECT SUM(income) FROM income";
+
+                using (SqlCommand cmd = new SqlCommand(query, connect))
+                {
+                    object result = cmd.ExecuteScalar();
+
+                    if (result != DBNull.Value)
+                    {
+                        decimal totalCost = Convert.ToDecimal(result);
+
+                        income_total.Text = totalCost.ToString("C");
+                        //income_totalIncome.Text = todayCost.ToString("0.00") + " zl";
+                    }
+                    else
+                    {
+                        income_total.Text = "0.00 zl";
+                    }
+                }
+            }
         }
 
         // expenses
@@ -274,6 +327,33 @@ namespace Financial_Tracker_System
             }
 
         }
+        public void expensetotalExpenses()
+        {
+            using (SqlConnection connect = new SqlConnection(stringConnection))
+            {
+
+                connect.Open();
+
+                string query = "SELECT SUM(cost) FROM expenses";
+
+                using (SqlCommand cmd = new SqlCommand(query, connect))
+                {
+                    object result = cmd.ExecuteScalar();
+
+                    if (result != DBNull.Value)
+                    {
+                        decimal totalCost = Convert.ToDecimal(result);
+
+                        expense_total.Text = totalCost.ToString("C");
+                        //income_totalIncome.Text = todayCost.ToString("0.00") + " zl";
+                    }
+                    else
+                    {
+                        expense_total.Text = "0.00 zl";
+                    }
+                }
+            }
+        }
 
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
@@ -291,6 +371,11 @@ namespace Financial_Tracker_System
         }
 
         private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
         {
 
         }

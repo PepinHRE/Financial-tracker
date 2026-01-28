@@ -74,6 +74,8 @@ namespace Financial_Tracker_System
             Application.Exit();
         }
 
+        public static string username;
+
         private void login_btn_Click(object sender, EventArgs e)
         {
             using (SqlConnection connect = new SqlConnection(stringConnection))
@@ -94,6 +96,8 @@ namespace Financial_Tracker_System
 
                     if (table.Rows.Count != 0)
                     {
+                        username = login_username.Text;
+
                         MessageBox.Show("Login successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         MainForm mForm = new MainForm();

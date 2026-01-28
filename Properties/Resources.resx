@@ -121,11 +121,17 @@
   <data name="category_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\category_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="income_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\income_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="expense_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\expense_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dashboard_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\dashboard_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\person.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ikona_osoba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\ikona_osoba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,10 +139,10 @@
   <data name="dashboard-icon-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\dashboard-icon-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="income_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\income_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="logout_icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\logout_icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

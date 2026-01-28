@@ -158,5 +158,11 @@
   <ItemGroup>
     <None Include="Assets\logout_icone.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\person.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\person.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

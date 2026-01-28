@@ -22,6 +22,18 @@ namespace Financial_Tracker_System
             displayIncomeData();
         }
 
+        public void refreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+
+            displayCategyList();
+            displayIncomeData();
+        }
+
         public void displayIncomeData()
         {
             IncomeData iData = new IncomeData();
