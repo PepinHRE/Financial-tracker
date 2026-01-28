@@ -379,5 +379,10 @@ namespace Financial_Tracker_System
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
