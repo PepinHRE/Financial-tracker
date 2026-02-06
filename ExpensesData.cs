@@ -9,7 +9,7 @@ namespace Financial_Tracker_System
 {
     class ExpensesData
     {
-        string stringConnection = @"Data Source=OLI-WORKPLACE;Initial Catalog=ExpensesApp;Integrated Security=True;TrustServerCertificate=True;";
+        string stringConnection = @"Data Source";
 
         public int ID { set; get; } // 0
         public string Category { set; get; } // 1

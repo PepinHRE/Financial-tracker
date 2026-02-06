@@ -13,7 +13,7 @@ namespace Financial_Tracker_System
 {
     public partial class RegisterForm : Form
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=OLI-WORKPLACE;Initial Catalog=ExpensesApp;Integrated Security=True;TrustServerCertificate=True;");
+        SqlConnection connect = new SqlConnection(@"Data source");
         public RegisterForm()
         {
             InitializeComponent();

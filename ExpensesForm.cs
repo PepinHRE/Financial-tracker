@@ -14,7 +14,7 @@ namespace Financial_Tracker_System
 {
     public partial class ExpensesForm : UserControl
     {
-        string stringConnection = @"Data Source=OLI-WORKPLACE;Initial Catalog=ExpensesApp;Integrated Security=True;TrustServerCertificate=True;";
+        string stringConnection = @"Data Source";
         public ExpensesForm()
         {
             InitializeComponent();

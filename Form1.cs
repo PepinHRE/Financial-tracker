@@ -15,7 +15,7 @@ namespace Financial_Tracker_System
     public partial class Form1 : Form
     {
 
-        string stringConnection = @"Data Source=OLI-WORKPLACE;Initial Catalog=ExpensesApp;Integrated Security=True;TrustServerCertificate=True;";
+        string stringConnection = @"";
         public Form1()
         {
             InitializeComponent();

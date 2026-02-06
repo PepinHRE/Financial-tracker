@@ -13,7 +13,7 @@ namespace Financial_Tracker_System
 {
     public partial class CategoryForm : UserControl
     {
-        string stringConnection = @"Data Source=OLI-WORKPLACE;Initial Catalog=ExpensesApp;Integrated Security=True;TrustServerCertificate=True;";
+        string stringConnection = @"Data Source";
         public CategoryForm()
         {
             InitializeComponent();
